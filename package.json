@@ -10,6 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/gawhelan/scafall.git"
+  },
   "keywords": [
     "scaffold",
     "scaffolding",
@@ -27,5 +31,6 @@
     "handlebars": "^3.0.0",
     "inquirer": "^0.8.0",
     "tmp": "0.0.25"
-  }
+  },
+  "preferGlobal": true
 }
