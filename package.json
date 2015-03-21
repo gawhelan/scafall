@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": {
     "scafall": "bin/scafall.js",
-    "scafall-init": "bin/scafall-init.js"
+    "scafall-init": "bin/scafall-init.js",
+    "scafall-ls": "bin/scafall-ls.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
