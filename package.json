@@ -12,8 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/gawhelan/scafall.git"
+    "type": "git",
+    "url": "http://github.com/gawhelan/scafall.git"
   },
   "keywords": [
     "scaffold",
