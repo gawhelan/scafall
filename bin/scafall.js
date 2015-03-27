@@ -2,9 +2,11 @@
 
 var app = require('commander');
 
-app.version(require('../package.json').version)
-    .command('init <template>', 'Initialize a new project.')
-;
+app.version(require('../package.json').version);
+
+app.command('init <generator>')
+    .description('Initialize a new project.')
+    .action(require('../lib/commands/init'));
 
 app.command('install <generator>')
     .alias('i')
